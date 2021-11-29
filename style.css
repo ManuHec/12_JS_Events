@@ -1,6 +1,34 @@
-
 /** Styles */
 
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    /* color: blueviolet;
+    background-color: black; */
+}
 
+body.night {
+    background-color: black;
+}
 
+h1.night {
+    color: rgb(197, 10, 135);
+}
 
+p.night {
+    color: antiquewhite;
+}
+
+body.day {
+    background-color: white;
+}
+
+h1.day {
+    color: rgb(197, 10, 135);
+}
+
+p.day {
+    color: black;
+}
